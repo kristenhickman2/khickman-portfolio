@@ -26,6 +26,62 @@ body {
   float: left;
 }
 
+/**HEADER**/
+
+header {
+  height: 800px;
+  background-image: url('../img/rawpixel-computer-background-unsplash.jpg');
+  background-size: cover;
+
+}
+
+header h1 {
+  padding: 65px 0 65px 25px;
+  font-family: 'Roboto' sans-serif;
+  font-size: 50px;
+  color: #dddddd;
+  text-shadow: 2px 2px black;
+}
+
+nav {
+  float: right;
+  padding: 75px 25px;
+
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: darkgrey;
+  padding-left: 20px;
+}
+
+header h2 {
+  width: 600px;
+  clear: left;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 50px;
+  line-height: normal;
+  color: darkgrey;
+  padding: 0 0 20px 25px;
+}
+
+@keyframes hi {
+  from (background-color: grey;)
+  to (bacground-color: black;)
+}
+
+header h2 span {
+  color: white;
+  animation-name: hi;
+  animation-duration: 5s;
+}
+
 /**ABOUT SECTION**/
 
 .headshot {
@@ -36,7 +92,7 @@ body {
 }
 
 #about .full-width {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 #about .third-width1, .third-width3 {
@@ -54,7 +110,7 @@ body {
 #about h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
-  padding: 10px;
+  padding: 20px;
   margin-left: 50px;
 }
 
@@ -62,6 +118,7 @@ body {
   font-family: 'Montserrat';
   font-size: 15px;
   line-height: 20px;
+  text-align:center;
 }
 
 /***EXPERIENCE SECTION**/
